@@ -45,6 +45,30 @@ body{
     .navbar{
         border-radius:0px!important;
     }
+    .hide-desktop{
+        display:none;
+    }
+}
+@media (max-width: 768px){
+    .navbar{
+        border-radius:0px!important;
+    }
+    .hide-mobi, .logo-section, .form-section{
+        display:none;
+    }
+    .odds{
+        background-color: #898B8D;
+       margin-right:15px;
+       margin-left:15px;
+    }
+    .margin-mobi{
+        margin-right:15px;
+        margin-left:15px;
+    }
+    .slider-wrapper, .footer-section, .copyright-section{
+        margin-right:15px;
+        margin-left:15px;
+    }
 }
 
 .navbar-default .navbar-nav > li > a {

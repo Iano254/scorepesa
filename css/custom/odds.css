@@ -1,6 +1,6 @@
 .odds{
     background-color: #898B8D;
-   
+   margin-bottom:15px;
 }
 .htt{
     font-size:12px;
@@ -13,26 +13,24 @@
 .meta-t{
     color:#212121;
     font-weight:bold;
-    font-size:13px;
+    font-size:12px;
 }
 .meta-tt{
     color:#000;
     font-weight:bold;
-    font-size:13px;
+    font-size:12px;
 }
 .odd-selector{
-    padding:10px;
+    padding:10px 5px;
     background-color: #123F4A;
     color:white;
     text-align: center;
+    font-size:10px;
 }
 .odd-selector-wrapper{
     padding-top:15px;
 }
-.col-md-3{
-    padding-left:5px;
-    padding-right:5px;
-}
+
 .odd-sec{
     padding:5px;
     border-bottom:5px solid #000;

@@ -1,5 +1,11 @@
 <header>
 <div class="login-section">
+    <div class="logn hide-desktop">
+    <button style="border-radius:0px" type="submit" class="btn btn-default login-btn">LOGIN</button>
+    </div>
+    <div class="sgnp hide-desktop">
+    <button style="border-radius:0px" type="submit" class="btn btn-default login-btn">REGISTER</button>
+    </div>
     <div class="logo-section">
         <img src="png/logo.png" style="height:75px" alt="">
     </div>
@@ -8,16 +14,16 @@
         <span style="">Welcome to scorepesa</span>
         <span style=" font-weight:bold;">Register Now!</span>
         </div>
-    <form class="form-inline" action="/action_page.php">
-    <div class="form-group">
-        <input type="phone" class="form-control" id="phone" placeholder="07XXXXXXXX">
-    </div>
-    <div class="form-group">
-        <input type="password" class="form-control" id="pwd" placeholder="password">
-    </div>
-    <button type="submit" class="btn btn-default login-btn">LOGIN</button>
-    </form>
-    <span style="float:right; margin-top:10px;">Forgot your Password?</span>
+        <form class="form-inline" action="/action_page.php">
+        <div class="form-group">
+            <input style="border-radius:0px" type="phone" class="form-control" id="phone" placeholder="07XXXXXXXX">
+        </div>
+        <div class="form-group">
+            <input style="border-radius:0px" type="password" class="form-control" id="pwd" placeholder="password">
+        </div>
+        <button style="border-radius:0px" type="submit" class="btn btn-default login-btn">LOGIN</button>
+        </form>
+        <span style="float:right; margin-top:10px;">Forgot your Password?</span>
     </div>
 </div>
 
