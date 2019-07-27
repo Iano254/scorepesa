@@ -1,5 +1,5 @@
 <div class="betslip-wrapper">
-    <div class="heading-slip" style="padding:10px; background-color:#B21212">
+    <div class="heading-slip" style="padding:10px; background-color:#01BE6E">
         <span style="color:white;">BETSLIP</span>
     </div>
     <div class="content-sec" style="padding:15px;">
@@ -13,7 +13,7 @@
 </div>
 <div class="spacer"></div>
 
-<div class="paybill-wrap">
+<div class="paybill-wrap" style="background-color:white; margin-bottom:15px;">
     <div class="paybill-header"  style="padding:10px; background-color:#000">
     <span style="color:white;">BETSLIP</span>
     </div>
@@ -23,7 +23,7 @@
 </div>
 
 
-<div class="paybill-wrap">
+<div class="paybill-wrap" style="background-color:white; margin-bottom:15px;">
     <div class="paybill-header"  style="padding:10px; background-color:#000">
     <span style="color:white;">CUSTOMER CARE</span>
     </div>

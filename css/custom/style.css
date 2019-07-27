@@ -1,10 +1,18 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif!important;
+    background-color: #C9CBCC;
+}
+a:hover{
+    text-decoration:none;
+    color:#000;
+}
+.fa:hover{
+    color:#01BE6E;
 }
 
 .login-section{
-    background-color: black; 
-    padding:10px 10px;
+    background-color: white; 
+    padding:15px 15px;
     display: flex;
     justify-content:space-between;
 
@@ -22,9 +30,9 @@ body{
     color:white;
 }
 .login-btn{
-    background-color: #B21212;
-    border-color:#B21212;
-    color:white;
+    background-color: #01BE6E;
+    border-color:#01BE6E;
+    color:#101721;
     font-weight: bold;
     padding-left:20px;
     padding-right:20px;
@@ -35,10 +43,25 @@ body{
     background-color: #B55656;
     border-color:#B55656;
 }
+.reg-btn{
+    background-color: #101721;
+    border-color:#101721;
+    color:white;
+    font-weight: bold;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+.reg-btn:hover{
+    background-color: #B55656;
+    border-color:#B55656;
+}
 
 .navbar-default {
-    background-color: #B21212;
-    border-color: #B21212;
+    background-color: #000;
+    border-color: #000;
+    border:0px!important;
 }
 
 @media (min-width: 768px){
@@ -48,10 +71,21 @@ body{
     .hide-desktop{
         display:none;
     }
+    .glyphicon{
+        margin-right:10px;
+    }
 }
 @media (max-width: 768px){
     .navbar{
         border-radius:0px!important;
+        
+    }
+    .glyphicon{
+        margin-right:0px;
+    }
+    .navbar-nav{
+        display:flex; 
+        justify-content:space-between;
     }
     .hide-mobi, .logo-section, .form-section{
         display:none;
@@ -71,22 +105,96 @@ body{
     }
 }
 
+
+.navbar {
+    padding:0px;
+}
+
+.ball .main-nav .navbar {
+    padding:0px;
+}
+
+.ball .nav-link {
+    display: block;
+    padding: 15px 30px;
+}
+
+.main-nav .nav-link {
+    display: block;
+    padding: 15px 30px;
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+.bg-green{
+    color: #fff!important;
+    background-color: #01BE6E;
+}
+.bg-black{
+    color: #fff!important;
+    background-color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    background-color: #01BE6E;
+    color:white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link a:hover {
+    background-color: #01BE6E;
+    color:white;
+}
+
+.ball .navbar-light .navbar-nav .active>.nav-link {
+    background-color: #08754C;
+    color:white;
+}
+
+.ball .navbar-light .navbar-nav .active>.nav-link a:hover {
+    background-color: #08754C;
+    color:white;
+}
+.nav-item{
+    transition:all ease .3s;
+}
+.nav-item:hover{
+    background-color: #01BE6E;
+    color:white;
+}
+
+
 .navbar-default .navbar-nav > li > a {
     color: #fff;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+    color: #01BE6E;
+}
+
+.ball .navbar-default .navbar-nav > li > a:hover {
+    color: #01BE6E;
+}
+
 .navbar-default .navbar-nav > .active > a{
-    color: #000;
-    background-color: #B55656;
+    color: #fff;
+    background-color: #01BE6E;
 }
 
 .navbar-default .navbar-nav > .active > a:hover{
     color: #000;
-    background-color: #B55656;
+    background-color: #01BE6E;
 }
-.glyphicon{
-    margin-right:10px;
-}
+
 
 .panel-body { 
     padding:0px;
@@ -137,10 +245,7 @@ body{
     color:#fff;
     text-decoration: none;
 }
-a:hover{
-    text-decoration:none;
-    color:#000!important;
-}
+
 
 .panel {
     margin-bottom: 20px;
@@ -154,10 +259,16 @@ a:hover{
 
 
 .strip{
-    padding:10px;
-    background-color:#B21212;
+    background-color:#01BE6E;
+    margin-bottom:10px;
     display: flex;
-    justify-content: space-between;
+    justify-content:left;
+    align-items: left;
+}
+.input-f{
+    display: flex;
+    justify-content:left;
+    align-items: left;
 }
 .spacer{
     height: 15px;
@@ -169,3 +280,39 @@ a:hover{
     color:#D6D6D2;
     font-size:14px;
 }
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #01BE6E;
+}
+
+.dropdown-item {
+    color: #fff;
+    font-size:14px;
+    font-weight:normal;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #fff!important;
+    text-align: left;
+    list-style: none;
+    background-color: #000;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,1);
+    border-radius: 0px;
+}
+
