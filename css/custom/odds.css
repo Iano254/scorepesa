@@ -33,6 +33,17 @@
     cursor: pointer;
     background-color: #101721;
 }
+
+.odd-selector-2{
+    background-color: #01BE6E;
+    color:white;
+    transition: all ease .5s;
+    font-size:13px;
+}
+.odd-selector-2:hover{
+    cursor: pointer;
+    background-color: #101721;
+}
 .odd-selector-wrapper{
     padding-top:15px;
 }

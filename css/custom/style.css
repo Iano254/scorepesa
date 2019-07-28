@@ -76,9 +76,15 @@ a:hover{
     }
 }
 @media (max-width: 768px){
+    .col-md-9{
+        padding-left: 0px!important;
+    }
     .navbar{
         border-radius:0px!important;
         
+    }
+    .form-t{
+        overflow-x: scroll!important;
     }
     .glyphicon{
         margin-right:0px;
@@ -135,7 +141,7 @@ a:hover{
 }
 .bg-black{
     color: #fff!important;
-    background-color: #000;
+    background-color: #101721;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
@@ -191,7 +197,7 @@ a:hover{
 }
 
 .navbar-default .navbar-nav > .active > a:hover{
-    color: #000;
+    color: #101721;
     background-color: #01BE6E;
 }
 

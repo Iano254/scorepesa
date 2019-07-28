@@ -29,11 +29,11 @@
 
   <div class="row" style="padding-left:0px; padding-right:0px;">
    
-      <div class="col-md-9" style="padding-right:0px;">
+      <div class="col-md-9 " style="padding-right:0px;">
           
       <?php include 'components/slider.php';?>
       <div class="spacer"></div>
-      <?php include 'components/markets/highlights.php';?>
+      <?php include 'components/markets/markets.php';?>
       </div>
       <div class="col-md-3"  style="">
           
