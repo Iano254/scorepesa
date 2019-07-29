@@ -33,7 +33,7 @@
           
       <?php include 'components/slider.php';?>
       <div class="spacer"></div>
-      <?php include 'components/markets/highlights.php';?>
+      <?php include 'components/markets/markets.php';?>
       </div>
       <div class="col-md-3"  style="">
           

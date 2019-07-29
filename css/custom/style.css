@@ -40,11 +40,11 @@ a:hover{
     padding-bottom:7px;
 }
 .login-btn:hover{
-    background-color: #B55656;
-    border-color:#B55656;
+    background-color: rgba(1, 190, 110, .9);
+    border-color: rgba(1, 190, 110, .9);
 }
 .reg-btn{
-    background-color: #101721;
+    background-color: rgb(16, 23, 33);
     border-color:#101721;
     color:white;
     font-weight: bold;
@@ -54,8 +54,8 @@ a:hover{
     padding-bottom:7px;
 }
 .reg-btn:hover{
-    background-color: #B55656;
-    border-color:#B55656;
+    background-color: rgba(16, 23, 33, .9);
+    border-color:rgba(16, 23, 33, .9);;
 }
 
 .navbar-default {

@@ -54,7 +54,7 @@
                 <span style="font-weight:bold;">PREMIERE LEAGUE</span>
             </div>
             <div class="action">
-            <span class="fa fa-plus" style=""><a href="#"></a></span>
+            <a href="./more.php"><span class="fa fa-plus" style=""></span></a>
             </div>
         </div>
             
@@ -163,7 +163,7 @@
                 <span style="font-weight:bold;">PREMIERE LEAGUE</span>
             </div>
             <div class="action">
-            <span class="fa fa-plus" style=""><a href="#"></a></span>
+            <a href="./more.php"><span class="fa fa-plus" style=""></span></a>
             </div>
         </div>
             
